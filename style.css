@@ -1,0 +1,81 @@
+:root{
+    --gary:gray;
+    --balck:black;
+    --white:white;
+    --green:rgb(37, 131, 37);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+/* background-color: var(--gary);
+color: var(--white); */
+}
+
+
+.images {
+    height: 30rem;
+    background-image: url(https://source.unsplash.com/700x600/?currency);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;   
+    justify-content: center;    
+    display: flex;
+    align-items: center;    
+    margin-bottom: 2em;
+
+}
+.images h1:hover{
+    color: var(--green);
+    /* opacity: 0.4; */
+}
+.cCode a{
+    cursor: pointer;
+    color:var(--balck);
+    text-decoration-line: none;
+}
+section{
+   
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.size{
+    font-size: larger;
+    font-weight: 800;
+    color: green;
+}
+tr:nth-child(even){
+    background-color: var(--gary);
+    color: var(--white);
+}
+.loadingBox.loading{
+    visibility: hidden;
+    max-height: 1rem;
+    position: relative;
+}
+.loadingBox.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: 2px solid var(--balck);
+    padding: 2px;
+    text-align: left;
+}
+
+.dateInfo{
+    text-transform: capitalize;
+    padding: 1em;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
