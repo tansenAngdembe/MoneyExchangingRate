@@ -69,7 +69,7 @@ tr:nth-child(even){
 }
 table{
     border-collapse: collapse;
-    width: 59vw;
+    /* width: 59vw; */
 
 }
 th, td{
@@ -83,8 +83,7 @@ th, td{
     padding: 1em;
     font-weight: bold;
     font-size: large;
-    display: flex;
-    justify-content: space-between;
+   
 }
 address {   
     background-image: linear-gradient(to right, var(--pink), var(--red));
@@ -113,5 +112,11 @@ footer{
     footer{
         width: 29rem;
     }
+    .dateInfo{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+   
     
 }
