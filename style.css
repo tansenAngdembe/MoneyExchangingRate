@@ -3,6 +3,9 @@
     --balck:black;
     --white:white;
     --green:rgb(37, 131, 37);
+    --pink:rgb(115, 59, 179);
+    --purple: rgb(114, 2, 114);
+    --red:rgb(255, 0, 0);
 }
 *{
     box-sizing: border-box;
@@ -13,6 +16,7 @@ color: var(--white); */
 
 
 .images {
+   
     height: 30rem;
     background-image: url(https://source.unsplash.com/700x600/?currency);
     background-repeat: no-repeat;
@@ -46,9 +50,10 @@ section{
     font-weight: 800;
     color: green;
 }
-tr:nth-child(even){
-    background-color: var(--gary);
-    color: var(--white);
+tr:nth-child(even){   
+    background-image: linear-gradient(to right, var(--balck), var(--red));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .loadingBox.loading{
     visibility: hidden;
@@ -78,4 +83,30 @@ th, td{
     font-size: large;
     display: flex;
     justify-content: space-between;
+}
+address {   
+    background-image: linear-gradient(to right, var(--pink), var(--red));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: large;
+    font-weight: 700;
+    width: 100%; 
+    max-width: 225px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: var(--gary);
+    font-size: large;
+    font-weight: 700;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:473px){
+    .images{
+        width:29rem;
+    }
+    
 }
