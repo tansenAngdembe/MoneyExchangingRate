@@ -10,6 +10,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+  
 /* background-color: var(--gary);
 color: var(--white); */
 }
@@ -68,7 +69,8 @@ tr:nth-child(even){
 }
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 59vw;
+
 }
 th, td{
     border: 2px solid var(--balck);
@@ -104,9 +106,12 @@ footer{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width:473px){
+@media screen and (max-width:875px){
     .images{
         width:29rem;
+    }
+    footer{
+        width: 29rem;
     }
     
 }
