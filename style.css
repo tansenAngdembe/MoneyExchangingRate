@@ -17,7 +17,7 @@ color: var(--white); */
 
 
 .images {
-   
+    width: 100%;
     height: 30rem;
     background-image: url(https://source.unsplash.com/700x600/?currency);
     background-repeat: no-repeat;
