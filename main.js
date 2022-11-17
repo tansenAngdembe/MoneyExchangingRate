@@ -15,8 +15,7 @@ tableHeader.forEach(HeaderCell => {
 let forex = {
     allCounntryCurrency: function () {
         const country = "https://www.nrb.org.np/api/forex/v1/app-rate"
-        fetch(country
-)
+        fetch(country)
             .then((response) => { return response.json() })
             .then((data) => { this.fetchData(data) });
     },
