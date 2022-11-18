@@ -70,6 +70,7 @@ tr:nth-child(even){
 table{
     border-collapse: collapse;
     /* width: 59vw; */
+    width:50%;
 
 }
 th, td{
