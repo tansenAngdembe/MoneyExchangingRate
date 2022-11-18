@@ -108,10 +108,10 @@ footer{
 }
 @media screen and (max-width:875px){
     .images{
-        width:29rem;
+        width:31rem;
     }
     footer{
-        width: 29rem;
+        width: 31rem;
     }
     .dateInfo{
         display: flex;
